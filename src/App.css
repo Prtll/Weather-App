@@ -1,0 +1,92 @@
+
+.App{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    min-height: 100Vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.gifer.com/84uN.gif') ;
+    background-size: cover;
+    background-position: center;    
+}
+.card{
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(152, 168, 182, 0.5);
+    border:  1px solid transparent;
+    backdrop-filter: blur(4px);
+    padding: 60px 30px;
+    border-radius: 30px;
+    color: white;
+}
+.card__title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: .7rem;
+}
+.card__subtitle{
+    text-align: center;    
+    font-size: 1.2rem;
+}
+.card__content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: center;
+}
+.card__icon{
+    min-width: 150px;
+}
+.card__second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+}
+.second__title{
+    padding-bottom: 1rem;
+}
+.second__list{
+    display: grid;
+    gap: 0.5rem;
+}
+.second__span{
+    color: aquamarine;
+    font-weight: 700;
+}
+.card__temperature{    
+    text-align: center;
+    margin-bottom: .5rem;
+    margin-top: 1.5rem;
+}
+.card__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left: auto;
+    margin-right: auto;
+    padding: .7rem 1.5rem;
+    border: 1px solid #fff;
+    color: aquamarine;
+    border-radius: 5rem;
+    font-size: 1rem;   
+    background-color: transparent; 
+    box-shadow: inset 0 0 0 0 rgba(48, 86, 121, 0.788);
+    transition: ease-out .3s;
+    outline: none;
+}
+.card__btn:hover{
+   box-shadow: inset 300px 0 0 0 rgba(48, 86, 121, 0.788);
+   cursor: pointer;
+   color: #fff;    
+}
+
+/*---- loading ----*/
+
+.loading{
+    color: aquamarine;
+    font-size: 4rem;
+}
+
